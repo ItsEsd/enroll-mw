@@ -30,7 +30,7 @@ function formReset() {
           $("#secondlgcheckedu").empty();
           document.getElementById("register").disabled = true;
           var ur1 = "https://script.google.com/macros/s/";
-          var ur2 ="AKfycbzQb1AFfuHBzUQZx-OYWzoMa-wGbrgwY13_nsVw9ndaV_57Mr--ondYLkpUJKVjSmn-5w";
+          var ur2 ="AKfycbwjMWsL9y0rYd4141KhIs33KdRyR26AlDPlwfKq_4BhRaI6ZxRgxdsP73cWbvU_FVPK0Q";
           var url = ur1+ ur2+"/exec"+"?action=read";
           var emailch = $("#email").val();
           var flag =0;
@@ -318,16 +318,6 @@ function conasmwallco(){
     $('.box').hScroll(40);
   }); */
 
- 
-  function myFunction() {
-    var myVar;
-    myVar = setTimeout(showPage, 0000);
-  }
-
-  function showPage() {
-    document.getElementById("loader2").style.display = "none";
-    document.getElementById("myDiv").style.display = "block";
-  }
 
   $('#confirmpasswrd').on('keyup', function() {
     if ($('#passwrd').val() == $('#confirmpasswrd').val()) {
