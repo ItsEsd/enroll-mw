@@ -327,7 +327,22 @@ a:hover{text-decoration:none;}
   font-size: 20px;
   display: none;
 }
+#mhomeinfo{
+  top:60px;
+  right:0px;
+  position: fixed;
+  background-color: #ffffffc4;
+ padding:5px;
+}
 
+#mhomeinfo:hover{
+  background-color: #ffffffe0;
+}
+#mhomeinfo svg{
+  width:30px;
+  height:30px;
+  color:#1d1d1d;
+}
 #promoreg{
   width:100%;
   height:100%;
